@@ -27,5 +27,5 @@ spec:
               cpu: 1
               memory: 512Mi
       imagePullSecrets:
-        - name: container.simafig.com
+        - name: regcred
       

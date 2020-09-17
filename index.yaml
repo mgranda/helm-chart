@@ -3,9 +3,9 @@ entries:
   angular-devops-example:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-16T23:13:10.5064685-05:00"
+    created: "2020-09-16T23:43:01.9030837-05:00"
     description: A Helm chart for Kubernetes
-    digest: da607e18c349592e022c243d23288aec85333049728263eed511507b3d133b7c
+    digest: d9abb8551d4dbad0ab4de6f5235713aed9b3c44c5702b369802d3d604e71507d
     icon: https://i0.wp.com/www.krugercorp.com/wp-content/uploads/2018/07/logo-con-slogan.png
     maintainers:
     - email: jgranda@ec.krugercorp.com
@@ -15,4 +15,4 @@ entries:
     urls:
     - https://mgranda.github.io/helm-chart/angular-devops-example-1.0.0.tgz
     version: 1.0.0
-generated: "2020-09-16T23:13:10.5064685-05:00"
+generated: "2020-09-16T23:43:01.902083-05:00"
