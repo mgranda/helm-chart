@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: devops-svc
+  namespace: {{ .Release.Namespace }}
+spec:
+  #type: NodePort
+  selector:
+    app: devops-web
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  
+

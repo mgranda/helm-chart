@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-web
+  namespace: {{ .Release.Namespace }}
+spec:  
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-web
+  template:
+    metadata:
+      labels:
+        app: devops-web
+    spec:
+      containers:
+        - name: devops-web
+          image: docker.krugernetes.com/kruger/devops-web:1.0.0
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: 1
+              memory: 512Mi
+      imagePullSecrets:
+        - name: docker.krugernetes.com
+      
