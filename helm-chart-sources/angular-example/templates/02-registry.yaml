@@ -3,7 +3,7 @@ data:
   .dockerconfigjson: eyJhdXRocyI6eyJkb2NrZXIua3J1Z2VybmV0ZXMuY29tIjp7InVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IlBhc3N3b3JkMDEiLCJlbWFpbCI6Imtsb3BlekBlYy5rcnVnZXJjb3JwLmNvbSIsImF1dGgiOiJZV1J0YVc0NlVHRnpjM2R2Y21Rd01RPT0ifX19
 kind: Secret
 metadata:
-  name: docker.krugernetes.com
+  name: container.simafig.com
   namespace: {{ .Release.Namespace }}
 type: kubernetes.io/dockerconfigjson
 

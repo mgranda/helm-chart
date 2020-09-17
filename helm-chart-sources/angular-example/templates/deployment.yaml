@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: devops-web
-          image: docker.krugernetes.com/kruger/devops-web:1.0.0
+          image: container.simafig.com/devops/devops-web:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 80
@@ -27,5 +27,5 @@ spec:
               cpu: 1
               memory: 512Mi
       imagePullSecrets:
-        - name: docker.krugernetes.com
+        - name: container.simafig.com
       
