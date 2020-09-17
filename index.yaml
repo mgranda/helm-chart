@@ -3,9 +3,9 @@ entries:
   angular-devops-example:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-09-17T09:51:47.5165793-05:00"
+    created: "2020-09-17T09:53:31.2852783-05:00"
     description: A Helm chart for Kubernetes
-    digest: 7c3967d6e325d9b2d19c8549d0c3e205e6c75b1d780b31ad7463502ee3061d6d
+    digest: 46f55bc52de14b630dd51b1c54b3a5759dee74f5d282c84682fffdb4611fabd8
     icon: https://i0.wp.com/www.krugercorp.com/wp-content/uploads/2018/07/logo-con-slogan.png
     maintainers:
     - email: jgranda@ec.krugercorp.com
@@ -17,7 +17,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-09-17T09:51:47.5155828-05:00"
+    created: "2020-09-17T09:53:31.2852783-05:00"
     description: A Helm chart for Kubernetes
     digest: 3f0c9b7b71a13b5eb130e5bd634f851783ec96917d75dcc265a08976a3a41c10
     icon: https://i0.wp.com/www.krugercorp.com/wp-content/uploads/2018/07/logo-con-slogan.png
@@ -31,7 +31,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-17T09:51:47.5155828-05:00"
+    created: "2020-09-17T09:53:31.2842769-05:00"
     description: A Helm chart for Kubernetes
     digest: ea3510aaa7f97149a6154409bef3cd9a20bfed33494f0f720cec704ccd05be95
     icon: https://i0.wp.com/www.krugercorp.com/wp-content/uploads/2018/07/logo-con-slogan.png
@@ -45,7 +45,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-17T09:51:47.5145798-05:00"
+    created: "2020-09-17T09:53:31.2842769-05:00"
     description: A Helm chart for Kubernetes
     digest: e832502b05d11c200a95843392b12ed6363363b2710d2a0aaffb641fe880f090
     icon: https://i0.wp.com/www.krugercorp.com/wp-content/uploads/2018/07/logo-con-slogan.png
@@ -57,4 +57,4 @@ entries:
     urls:
     - https://mgranda.github.io/helm-chart/angular-devops-example-1.0.0.tgz
     version: 1.0.0
-generated: "2020-09-17T09:51:47.5135804-05:00"
+generated: "2020-09-17T09:53:31.2832755-05:00"
