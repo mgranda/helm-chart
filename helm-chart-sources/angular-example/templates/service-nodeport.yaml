@@ -11,6 +11,6 @@ spec:
     app: devops-web
   ports:
     - port: 80           
-      nodePort: 30080   #range  30000-32767
+      #nodePort: 30080   #range  30000-32767
       targetPort: 80
       name: http  
